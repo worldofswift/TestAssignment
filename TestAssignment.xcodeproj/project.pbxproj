@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		ADBC345C22D97B3700BCBA58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC345B22D97B3700BCBA58 /* main.swift */; };
+		ADBC346322D97B6400BCBA58 /* SQLType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC346222D97B6400BCBA58 /* SQLType.swift */; };
+		ADBC346522D97BDD00BCBA58 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC346422D97BDD00BCBA58 /* Configuration.swift */; };
+		ADBC346722D9855F00BCBA58 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC346622D9855F00BCBA58 /* Shell.swift */; };
+		ADBC346922D9864A00BCBA58 /* SQLFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC346822D9864A00BCBA58 /* SQLFile.swift */; };
+		ADBC346B22DA216700BCBA58 /* SQLCommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC346A22DA216700BCBA58 /* SQLCommandExecutor.swift */; };
+		ADBC346D22DA274700BCBA58 /* SQLDBBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC346C22DA274700BCBA58 /* SQLDBBuilder.swift */; };
+		ADBC347122DA30AB00BCBA58 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC347022DA30AB00BCBA58 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,17 @@
 /* Begin PBXFileReference section */
 		ADBC345822D97B3700BCBA58 /* TestAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBC345B22D97B3700BCBA58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ADBC346222D97B6400BCBA58 /* SQLType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLType.swift; sourceTree = "<group>"; };
+		ADBC346422D97BDD00BCBA58 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		ADBC346622D9855F00BCBA58 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		ADBC346822D9864A00BCBA58 /* SQLFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLFile.swift; sourceTree = "<group>"; };
+		ADBC346A22DA216700BCBA58 /* SQLCommandExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLCommandExecutor.swift; sourceTree = "<group>"; };
+		ADBC346C22DA274700BCBA58 /* SQLDBBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDBBuilder.swift; sourceTree = "<group>"; };
+		ADBC347022DA30AB00BCBA58 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		ADBC347222DA32DA00BCBA58 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ADBC347422DA33CA00BCBA58 /* Снимок экрана 2019-07-13 в 20.43.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2019-07-13 в 20.43.56.png"; sourceTree = "<group>"; };
+		ADBC347522DA33CF00BCBA58 /* Снимок экрана 2019-07-13 в 20.43.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2019-07-13 в 20.43.52.png"; sourceTree = "<group>"; };
+		ADBC347622DA33D500BCBA58 /* Снимок экрана 2019-07-13 в 20.43.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2019-07-13 в 20.43.44.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,8 @@
 		ADBC344F22D97B3700BCBA58 = {
 			isa = PBXGroup;
 			children = (
+				ADBC347322DA33A900BCBA58 /* Screenshots */,
+				ADBC347222DA32DA00BCBA58 /* README.md */,
 				ADBC345A22D97B3700BCBA58 /* TestAssignment */,
 				ADBC345922D97B3700BCBA58 /* Products */,
 			);
@@ -58,8 +78,25 @@
 			isa = PBXGroup;
 			children = (
 				ADBC345B22D97B3700BCBA58 /* main.swift */,
+				ADBC346222D97B6400BCBA58 /* SQLType.swift */,
+				ADBC346422D97BDD00BCBA58 /* Configuration.swift */,
+				ADBC346622D9855F00BCBA58 /* Shell.swift */,
+				ADBC346822D9864A00BCBA58 /* SQLFile.swift */,
+				ADBC346A22DA216700BCBA58 /* SQLCommandExecutor.swift */,
+				ADBC346C22DA274700BCBA58 /* SQLDBBuilder.swift */,
+				ADBC347022DA30AB00BCBA58 /* Queue.swift */,
 			);
 			path = TestAssignment;
+			sourceTree = "<group>";
+		};
+		ADBC347322DA33A900BCBA58 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC347622DA33D500BCBA58 /* Снимок экрана 2019-07-13 в 20.43.44.png */,
+				ADBC347422DA33CA00BCBA58 /* Снимок экрана 2019-07-13 в 20.43.56.png */,
+				ADBC347522DA33CF00BCBA58 /* Снимок экрана 2019-07-13 в 20.43.52.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBC346522D97BDD00BCBA58 /* Configuration.swift in Sources */,
+				ADBC347122DA30AB00BCBA58 /* Queue.swift in Sources */,
+				ADBC346D22DA274700BCBA58 /* SQLDBBuilder.swift in Sources */,
+				ADBC346B22DA216700BCBA58 /* SQLCommandExecutor.swift in Sources */,
+				ADBC346322D97B6400BCBA58 /* SQLType.swift in Sources */,
+				ADBC346722D9855F00BCBA58 /* Shell.swift in Sources */,
 				ADBC345C22D97B3700BCBA58 /* main.swift in Sources */,
+				ADBC346922D9864A00BCBA58 /* SQLFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
